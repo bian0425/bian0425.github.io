@@ -51,7 +51,7 @@
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			
-				<img lazy-src="http://picture.gptkong.com/20240524/0025130a3478194e83baaa3c8d42a470f9.png" class="js-avatar">
+				<img lazy-src="http://picture.gptkong.com/20240524/1510d3e4c6fd7e435484232933b9976c63.jpg" class="js-avatar">
 			
 		</a>
 
@@ -84,6 +84,11 @@
 							
 						</div>
 						<!-- music -->
+						
+							<!-- <div style="position: absolute; bottom: 120px; left: auto; width: 85%;"> -->
+							<div style="position: absolute; left: auto; width: 85%;">
+								<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=220 height=86 src="//music.163.com/outchain/player?type=2&id=1425065916&auto=1&height=66"></iframe>
+							</div>
 						
 					</nav>
 				</section>
@@ -127,7 +132,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img lazy-src="http://picture.gptkong.com/20240524/0025130a3478194e83baaa3c8d42a470f9.png" class="js-avatar">
+				<img lazy-src="http://picture.gptkong.com/20240524/1510d3e4c6fd7e435484232933b9976c63.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author"></h1>
@@ -222,7 +227,7 @@
 <script>
 	var yiliaConfig = {
 		fancybox: true,
-		mathjax: false,
+		mathjax: true,
 		animate: true,
 		isHome: false,
 		isPost: false,
@@ -238,6 +243,41 @@
 
 
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js"></script>
+
+
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
