@@ -14,7 +14,7 @@
   <meta name="description" content="你是世间真理之外,我此生追求却永无休止的答案">
 <meta property="og:type" content="website">
 <meta property="og:title" content="彼岸的blog">
-<meta property="og:url" content="https://bian0425.github.io/project/archives/2024/05/index.html">
+<meta property="og:url" content="http://example.com/archives/2024/05/index.html">
 <meta property="og:site_name" content="彼岸的blog">
 <meta property="og:description" content="你是世间真理之外,我此生追求却永无休止的答案">
 <meta property="og:locale" content="zh_CN">
@@ -28,7 +28,7 @@
     <link rel="icon" href="/img/favicon.ico">
   
   
-<link rel="stylesheet" href="/project/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
   
   
@@ -69,9 +69,9 @@
 					<nav class="header-menu">
 						<ul>
 						
-							<li><a href="/project/">Home</a></li>
+							<li><a href="/">Home</a></li>
 				        
-							<li><a href="/project/archives">Archives</a></li>
+							<li><a href="/archives">Archives</a></li>
 				        
 						</ul>
 					</nav>
@@ -143,9 +143,9 @@
 			<nav class="header-menu">
 				<ul>
 				
-					<li><a href="/project/">Home</a></li>
+					<li><a href="/">Home</a></li>
 		        
-					<li><a href="/project/archives">Archives</a></li>
+					<li><a href="/archives">Archives</a></li>
 		        
 		        <div class="clearfix"></div>
 				</ul>
@@ -167,7 +167,7 @@
       
       <section class="archives-wrap">
         <div class="archive-year-wrap">
-          <a href="/project/archives/2024" class="archive-year">2024</a>
+          <a href="/archives/2024" class="archive-year">2024</a>
         </div>
         <div class="archives">
     
@@ -175,14 +175,14 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       	<div class="article-meta">
-	      	<a href="/project/2024/05/23/hello-world/" class="archive-article-date">
+	      	<a href="/2024/05/23/hello-world/" class="archive-article-date">
   	<time datetime="2024-05-23T03:14:26.528Z" itemprop="datePublished">5月 23</time>
 </a>
         </div>
     	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/project/2024/05/23/hello-world/">
+      <a class="archive-article-title" href="/2024/05/23/hello-world/">
         Hello World
         
       </a>
@@ -222,7 +222,7 @@
     </div>
     
   
-<link rel="stylesheet" href="/project/fancybox/jquery.fancybox.css">
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
 
 
 
@@ -240,7 +240,7 @@
 	}
 </script>
 
-<script src="/project/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 
 
@@ -266,5 +266,20 @@ MathJax.Hub.Queue(function() {
 
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
